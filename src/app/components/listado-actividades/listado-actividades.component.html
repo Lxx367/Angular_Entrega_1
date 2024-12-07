@@ -1,0 +1,9 @@
+<div class="container mt-4">
+    <h2>Actividades</h2>
+    <div class="row">
+      <div *ngFor="let actividad of actividades" class="col-md-4">
+        <app-actividad [actividad]="actividad"></app-actividad>
+      </div>
+    </div>
+</div>
+  
